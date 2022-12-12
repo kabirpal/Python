@@ -1,0 +1,5 @@
+print("Enter first number")
+firstnum = int(input())
+print("Enter second number")
+secnum = int(input())
+print('Sum the number is ',firstnum+secnum)

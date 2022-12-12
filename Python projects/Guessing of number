@@ -1,0 +1,25 @@
+import random
+print('***********Welcome to guessing number game***********')
+print('Enter the starting number')
+start = int(input())
+print("Enter the ending number")
+endd = int(input())
+ran_no = random.randint(start,endd)
+chance = 0
+while(chance<=7):
+    print('Enter the Number')
+    guessed_no = int(input())
+    if guessed_no > ran_no:
+        print('Too high')
+        chance = chance + 1
+    elif guessed_no < ran_no:
+        print('Too low')
+        chance = chance + 1
+    else:
+        chance += 1
+        print('You have Guessed it correctly in {} chances'.format(chance))
+        break
+if chance>7:
+    print('The number is {}'.format(ran_no))
+    print('Better luck next time')
+

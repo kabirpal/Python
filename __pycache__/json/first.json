@@ -1,0 +1,24 @@
+[
+    {
+        "Student Name":"Jammu Sharma",
+        "Age":21,
+        "City":"Jammu",
+        "Phone no.": 7859364304
+    },
+    {
+        "Student Name":"Jayesh Soni",
+        "Age": 21,
+        "City":"Mount Abu",
+        "Phone no.": null,
+        ["Marks obtained":
+        {"English":45},
+        {"Maths":50}
+        ]
+    },
+    {
+        "Student Name":"Vipul Solanki",
+        "Age": 21,
+        "City":"Jodhpur",
+        "Phone No.":9074758973
+    }
+]

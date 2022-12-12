@@ -1,0 +1,3 @@
+str = "Back and Belly Belt Big Is Perfect To Relieve All Your Stress At The Comfort Of Your Home. Use It as Instructed. Breathable Material, Convenient and Comfortable, Promote Blood Circulation, Improve the Metabolism, Ease Pain And Keep Warm, Correct Posture. body temperature and absorbs sweat so you're always dry on the outside. Comfortable, lightweight, stretchy fabric molds and moves with your body while performing any activity"
+j = str.lower()
+print(j)

@@ -1,0 +1,29 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+def timeConversion(s):
+    j = list(s.split(':'))
+    k = j[2]
+    m = k[2:]
+    if m == 'AM':
+        if j[0] == '12':
+            print('00:{}:{}'.format(j[1],k[:2]))
+        else:
+            print('{}:{}:{}'.format(j[0],j[1],k[:2]))
+    else:
+        if j[0] == '12':
+            print('12:{}:{}'.format(j[1],k[:2]))
+        else:
+            a = j[0]
+            a = int(a)+12
+            print('{}:{}:{}'.format(a,j[1],k[:2]))
+
+if __name__ == '__main__':
+    s = '12:05:45PM'
+
+    result = timeConversion(s)

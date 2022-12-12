@@ -1,0 +1,32 @@
+<html>
+    <title>First Json Page</title>
+    <body>
+        <script type="text/javascript">
+        let students =
+        `[
+    {
+        "Student Name":"Jammu Sharma",
+        "Age":21,
+        "City":"Jammu",
+        "Phone no.": 7859364304
+    },
+    {
+        "Student Name":"Jayesh Soni",
+        "Age": 21,
+        "City":"Mount Abu",
+        "Phone no.": null
+    
+    },
+    {
+        "Student Name":"Vipul Solanki",
+        "Age": 21,
+        "City":"Jodhpur",
+        "Phone No.":9074758973
+    }
+]`
+console.log(JSON.parse(students)[0].Age)
+    
+        </script>
+
+    </body>
+</html>
